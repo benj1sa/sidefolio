@@ -7,6 +7,7 @@ const nextConfig = {
   output: "export",
   images: {
     domains: ["images.unsplash.com", "res.cloudinary.com"],
+    unoptimized: true,
   },
   experimental: {
     mdxRs: true,
